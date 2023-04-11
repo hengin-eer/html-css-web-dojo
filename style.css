@@ -7,6 +7,10 @@
     font-family: 'Yomogi';
 }
 
+img {
+    vertical-align: bottom;
+}
+
 /* header area  */
 header {
     width: 100%;
@@ -173,4 +177,89 @@ footer > .footer__links {
 }
 footer > .footer__links > span > a {
     color: #E4F9F5;
+}
+
+
+
+/* about.html  */
+.profile {
+    padding: 100px 30px;
+    background: #E4F9F5;
+}
+.profile > img {
+    height: 250px;
+    width: 250px;
+    margin-inline: auto;
+    display: block;
+    border-radius: 50%;
+}
+.profile__name {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: #11999E;
+    text-align: center;
+}
+.profile__description {
+    width: max-content;
+    max-width: 100%;
+    margin-inline: auto;
+}
+.mydata {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1.5px solid #11999E;
+    border-radius: 10px;
+    color: #40514E;
+}
+.mydata__title {
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+.mydata__list {
+    padding-left: 20px;
+}
+.mydata__list li {
+    font-size: 1.2rem;
+}
+.mydata__list li a {
+    color: #E4405F;
+}
+.hobby,
+.like,
+.skill {
+    padding-block: 30px;
+}
+.hobby__title,
+.like__title,
+.skill__title {
+    padding-bottom: 20px;
+    font-size: 3rem;
+    color: #40514E;
+}
+.hobby__list,
+.like__list,
+.skill__list {
+    padding-left: 20px;
+}
+.hobby__list li,
+.like__list li,
+.skill__list li {
+    padding-block: 5px;
+    font-size: 1.2rem;
+}
+.skill__list li.rank-5::before {
+    content: '🤩';
+}
+.skill__list li.rank-4::before {
+    content: '🥰';
+}
+.skill__list li.rank-3::before {
+    content: '😐';
+}
+.skill__list li.rank-2::before {
+    content: '🙄';
+}
+.skill__list li.rank-1::before {
+    content: '🥹';
 }
